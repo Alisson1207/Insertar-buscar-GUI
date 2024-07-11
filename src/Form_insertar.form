@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form_insertar">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="19" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="614" height="473"/>
+    </constraints>
+    <properties>
+      <background color="-1838337"/>
+      <foreground color="-1838337"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d72e8" class="javax.swing.JLabel" binding="lb_titulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="16" style="1"/>
+          <text value="Registro Estudiantes"/>
+        </properties>
+      </component>
+      <vspacer id="a4e32">
+        <constraints>
+          <grid row="1" column="4" row-span="18" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c0fdb" class="javax.swing.JLabel" binding="lb_nombre">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value=" Nombre y Apellido"/>
+        </properties>
+      </component>
+      <component id="57bb" class="javax.swing.JLabel" binding="lb_cedula">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value="Cédula"/>
+        </properties>
+      </component>
+      <component id="9d731" class="javax.swing.JLabel" binding="lb_b2">
+        <constraints>
+          <grid row="11" column="1" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value="Nota B2"/>
+        </properties>
+      </component>
+      <component id="61436" class="javax.swing.JTextField" binding="tf_cedula">
+        <constraints>
+          <grid row="2" column="1" row-span="2" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="3" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8e21a" class="javax.swing.JTextField" binding="tf_nombre">
+        <constraints>
+          <grid row="6" column="1" row-span="2" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="3" use-parent-layout="false">
+            <minimum-size width="150" height="-1"/>
+            <preferred-size width="50" height="-1"/>
+            <maximum-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9023b" class="javax.swing.JLabel" binding="lb_b1">
+        <constraints>
+          <grid row="8" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value="Nota B1"/>
+        </properties>
+      </component>
+      <component id="d1786" class="javax.swing.JTextField" binding="tf_b1">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="3" use-parent-layout="false">
+            <preferred-size width="500" height="10"/>
+            <maximum-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="56645" class="javax.swing.JTextField" binding="tf_b2">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="3" use-parent-layout="false">
+            <preferred-size width="500" height="-1"/>
+            <maximum-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9516f" class="javax.swing.JButton" binding="bt_ingresar">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="-1"/>
+            <preferred-size width="200" height="-1"/>
+            <maximum-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16737051"/>
+          <foreground color="-458764"/>
+          <text value="Ingresar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
